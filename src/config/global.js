@@ -1,9 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo:
+      'Evaluación y control en la gestión del riesgo: toma de decisiones gerenciales.',
+    descripcionCurso:
+      'La evaluación y control en la gestión del riesgo aborda cómo la gerencia del conocimiento y de las finanzas influyen en la toma de decisiones empresariales, destacando la importancia de las proyecciones financieras, el control continuo de riesgos, y el valor estratégico del conocimiento en la mejora de procesos.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -31,28 +33,57 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Evaluación de la gestión de riesgo',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'La gerencia de la información y el conocimiento en la toma de decisiones',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'La gerencia del conocimiento',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Gerencia del conocimiento en las pymes',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Finalidad de la información',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Creación del conocimiento organizacional',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'El control en la gestión del riesgo',
         desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'La gerencia de las finanzas',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Importancia de las proyecciones financieras',
+            hash: 't_4_1',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,10 +133,11 @@ export default {
   },
   complementario: [
     {
-      tema: '',
+      tema: 'Gestión del riesgo',
       referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tipo: 'Norma',
+      link:
+        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=74790',
     },
     {
       tema: '',
@@ -127,7 +159,18 @@ export default {
   referencias: [
     {
       referencia: '',
-      link: '',
+      link:
+        'https://calidadengestiondeproyectos.com/2019/06/02/el-analisis-riesgo-de-octave-allegro/',
+    },
+    {
+      referencia: '',
+      link:
+        'https://www.pdcahome.com/8293/gestion-de-riesgos-por-que-debemos-gestionar-los-riesgos/',
+    },
+    {
+      referencia: '',
+      link:
+        'https://www.ins.gov.co/Direcciones/RedesSaludPublica/GestiondeCalidadLaboratorios/Lineamientos%20Calidad/lineamiento%20de%20gesti%C3%B3n%20del%20riesgo.pdf',
     },
   ],
   creditos: [
@@ -140,9 +183,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -165,9 +208,9 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Andrea Paola Botello De la Rosa',
+          cargo: 'Desarrolladora <em>fullstack</em>',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Nombre',
