@@ -65,7 +65,6 @@
 
     p.mb-3 Además, se puede considerar la frecuencia de repetición, es decir, si el riesgo podría ocurrir una vez o en múltiples ocasiones.
     p.mb-3 Una vez determinados los valores de impacto y probabilidad, se multiplican para calcular el índice de riesgo, lo que permite asignar un valor numérico a cada riesgo. Este índice facilita la clasificación de los riesgos según su relevancia.
-    p.mb-3 Fórmula del índice de riesgo:
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -110,216 +109,207 @@
     p.mb-0 La evaluación de riesgos es una responsabilidad clave de la dirección de la empresa, aunque es esencial consultar tanto a los trabajadores como a sus representantes sobre el método utilizado, este debe ajustarse a los riesgos específicos de la organización y al nivel de profundidad necesario para garantizar una evaluación eficaz.
     p.mb-4 Mendoza (2014) propone un enfoque estructurado para la evaluación de riesgos, basado en la aplicación de controles de seguridad tras una adecuada evaluación y tratamiento de los mismos. Uno de los modelos recomendados para esta tarea es OCTAVE Allegro (Operationally Critical Threat, Asset, and Vulnerability Evaluation), desarrollado por el Software Engineering Institute (SEI). Este modelo, documentado y accesible de manera gratuita, ofrece un proceso de evaluación en 8 pasos que permite gestionar eficazmente los riesgos de seguridad en la organización.
     p.mb-3 El uso de este tipo de modelos es una estrategia preventiva, diseñada para anticiparse a la materialización de amenazas identificadas. El desafío radica en considerar todas las amenazas potenciales que podrían comprometer los objetivos de la empresa, llevando a cabo un análisis de riesgos que permita reducirlos a un nivel aceptable. Un ejemplo de una metodología complementaria es MAGERIT (Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información), que se enfoca en la gestión de riesgos en sistemas de información.
-    p.mb-4 A continuación, se detallan los ocho pasos del proceso de evaluación de riesgos, basados en el modelo OCTAVE Allegro:
     
-    .row
-      .col-lg-4
-        img.mb-2(src='@/assets/curso/temas/t1/img4.png', alt='')
-      .col-lg-8
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-          .row(titulo="1. Establecer criterios de medición del riesgo")
-            .col-md-6.mb-4.mb-md-0
-              p.mb-3 El primer paso para medir los riesgos consiste en identificarlos y evaluarlos cualitativamente según su impacto en la misión y objetivos de la organización. Se deben analizar diversas categorías clave, como la reputación y confianza del cliente, las finanzas, la productividad, la seguridad y salud, y el cumplimiento legal. Además, se puede incluir una categoría específica para abordar necesidades particulares de la empresa. Es esencial que el equipo responsable defina el nivel de impacto (alto, medio o bajo) que cada riesgo podría tener en el cumplimiento de los objetivos organizacionales.
-              .titulo-sexto.color-acento-contenido
-                h5 Tabla 1.
-                span Criterio de medición del riesgo – Reputación y confianza del cliente.
+    LineaTiempoD.color-primario
+      .row.bg5(numero="1" titulo="Praesent luctus")
+        .row.mb-3
+          .col-md-8.mb-4.mb-md-0
+            p Los activos de información son datos identificados como relevantes para la organización. Se debe documentar por qué fueron seleccionados y describir cada activo. Además, cada activo necesita un responsable o custodio que establezca los requisitos de seguridad basados en confidencialidad, integridad y disponibilidad. Es crucial crear un perfil para cada activo que determine su nivel de criticidad, lo cual facilitará la identificación de amenazas y riesgos, además de ayudar a definir las medidas de seguridad necesarias.     
+          .col-md-4
+            img(src='@/assets/curso/temas/t1/linea1.png', alt='')
+        .row.mb-3 
+          .titulo-sexto.color-acento-contenido
+            h5 Tabla 1.
+            span Criterio de medición del riesgo – Reputación y confianza del cliente.
+          .tabla-a.color-acento-botones.mb-5 
+            table
+              caption Referencia Tabla - Norma APA
+              thead
+                tr
+                  th Hoja de trabajo Allegro 7
+                  th Criterio de medición del riesgo Reputación y confianza del cliente
+              tbody
+                tr
+                  td Área de impacto
+                  td Bajo
+                  td Moderado
+                  td Alto
+                tr
+                  td Afectación a la imagen de la organización
+                  td La información relacionada con incidente de seguridad se conoce dentro del área de TI
+                  td La información relacionada con incidente de seguridad se conoce dentro de la organización
+                  td La información relacionada con incidente de seguridad se conoce  públicamente
+
+          p.mb-3 Nota. Adaptada de Mendoza (2014).
+          p.mb-0 Para priorizar las áreas de impacto en una organización, es esencial clasificarlas según su importancia, 
+          p.mb-3 asignando un valor entre 1 y 5, donde 5 representa la mayor prioridad y 1 la menor:
+    
+          .row
+            .titulo-sexto.color-acento-contenido
+              h5 Tabla 2.
+              span Prioridad de las áreas de impacto.
               
-              .tabla-a.color-acento-botones.mb-5 
-                table
-                  caption Referencia Tabla - Norma APA
-                  thead
-                    tr
-                      th Hoja de trabajo Allegro 7
-                      th Criterio de medición del riesgo Reputación y confianza del cliente
-                  tbody
-                    tr
-                      td Área de impacto
-                      td Bajo
-                      td Moderado
-                      td Alto
-                    tr
-                      td Afectación a la imagen de la organización
-                      td La información relacionada con incidente de seguridad se conoce dentro del área de TI
-                      td La información relacionada con incidente de seguridad se conoce dentro de la organización
-                      td La información relacionada con incidente de seguridad se conoce  públicamente
+            .tabla-a.color-acento-botones.mb-5 
+              table
+                caption Referencia Tabla - Norma APA
+                thead
+                  tr
+                    th Hoja de trabajo Allegro 7
+                    th Prioridad de las Áreas de impacto
+                tbody
+                  tr
+                    td Prioridad
+                    td Áreas de impacto
+                  tr
+                    td 5
+                    td Reputación y confianza del cliente
+                  tr
+                    td 4
+                    td Financiera
+                  tr
+                    td 3
+                    td Productividad
+                  tr
+                    td 2
+                    td Seguridad y salud
+                  tr
+                    td 1
+                    td Multas y penas legales
+                  tr
+                    td N/A
+                    td Definido por el usuario
+            p Nota. Adaptado de Mendoza (2014).
+      
+      .row.bg5(numero="2" titulo="Desarrollo del perfil de activos de información")
+          .col-md-8.mb-4.mb-md-0
+            p Los activos de información son datos identificados como relevantes para la organización. Se debe documentar por qué fueron seleccionados y describir cada activo. Además, cada activo necesita un responsable o custodio que establezca los requisitos de seguridad basados en confidencialidad, integridad y disponibilidad. Es crucial crear un perfil para cada activo que determine su nivel de criticidad, lo cual facilitará la identificación de amenazas y riesgos, además de ayudar a definir las medidas de seguridad necesarias.       
+          .col-md-4
+            img(src='@/assets/curso/temas/t1/linea1.png', alt='')
+      
+      .row.bg5(numero="3" titulo="Identificación de contenedores de activos")
+          .col-md-8.mb-4.mb-md-0
+            p En este paso, se deben identificar los repositorios donde se almacena la información. Estos contenedores pueden ser de tipo técnico, físico o humano, ya que la información puede presentarse en formato digital, físico (documentos) o como conocimiento en la mente de los empleados.      
+          .col-md-4
+            img(src='@/assets/curso/temas/t1/linea2.png', alt='')
+      
+      .row.bg5(numero="4" titulo="Identificación de áreas de preocupación")
+        .col-md-8.mb-4.mb-md-0
+          p Se desarrollan perfiles de riesgo para cada activo de información. Esto implica analizar la probabilidad de que una amenaza ocurra y su impacto. Cada área de preocupación debe documentar los riesgos percibidos, actores potenciales que podrían materializar la amenaza, los medios para llevarla a cabo y las consecuencias. Además, se debe registrar cómo estas amenazas pueden afectar los criterios de seguridad definidos previamente.       
+        .col-md-4
+          img(src='@/assets/curso/temas/t1/linea3.png', alt='')
+      
+      .row.bg5(numero="5" titulo="Identificación de escenarios de amenaza")
+        .row.mb-3
+          p Este paso extiende las áreas de preocupación identificadas anteriormente para detectar otras amenazas menos evidentes. Esto puede hacerse mediante cuestionarios específicos para cada tipo de contenedor (técnico, físico o humano), los cuales incluyen preguntas diseñadas para identificar posibles amenazas. También se puede emplear el uso de árboles de amenaza, que visualizan combinaciones de eventos que podrían comprometer los activos, como fallas técnicas, en sistemas, desastres naturales o acciones maliciosas internas o externas, teniendo presente que no todas las combinaciones significan una amenaza real y podrían considerarse descartadas. A continuación, se presenta un ejemplo de árbol de amenazas:      
+        .row
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 2.
+            span Prioridad de las áreas de impacto.
+          img(src='@/assets/curso/temas/t1/figura2.svg', alt='')
+          figcaption Nota. Adaptado de Mendoza (2014).
+      
+      .row.bg5(numero="6" titulo="Identificación de riesgos")
+        .col-md-8.mb-4.mb-md-0
+          p.mb-4 Para calcular el riesgo, se utiliza la siguiente ecuación.
+          .row.mb-3
+            .col-lg-9
+              .cajon.color-primario.p-4.mb-4
+                p #[b Riesgo = Amenaza (condición) + Impacto (consecuencia)]
+            .col-lg-3 
+              img(src='@/assets/curso/temas/t1/icono.svg', alt='')
+          p Se deben definir enunciados de impacto que describan cómo se vería afectada la organización si se materializan las amenazas. Para priorizar los riesgos, es útil definir la probabilidad de que estas amenazas ocurran, asignando valores de 1 (baja probabilidad), 2 (probabilidad media) y 3 (alta probabilidad), con base en datos históricos y estadísticos.
+        .col-md-4
+          img(src='@/assets/curso/temas/t1/linea4.png', alt='')
 
-              p.mb-3 Nota. Adaptada de Mendoza (2014).
-              p.mb-3 Para priorizar las áreas de impacto en una organización, es esencial clasificarlas según su importancia, asignando un valor entre 1 y 5, donde 5 representa la mayor prioridad y 1 la menor:
-              .titulo-sexto.color-acento-contenido
-                h5 Tabla 2.
-                span Prioridad de las áreas de impacto.
-              
-              .tabla-a.color-acento-botones.mb-5 
-                table
-                  caption Referencia Tabla - Norma APA
-                  thead
-                    tr
-                      th Hoja de trabajo Allegro 7
-                      th Prioridad de las Áreas de impacto
-                  tbody
-                    tr
-                      td Prioridad
-                      td Áreas de impacto
-                    tr
-                      td 5
-                      td Reputación y confianza del cliente
-                    tr
-                      td 4
-                      td Financiera
-                    tr
-                      td 3
-                      td Productividad
-                    tr
-                      td 2
-                      td Seguridad y salud
-                    tr
-                      td 1
-                      td Multas y penas legales
-                    tr
-                      td N/A
-                      td Definido por el usuario
-              p Nota. Adaptado de Mendoza (2014).
-
-          .row(titulo="2. Desarrollo del perfil de activos de información")
-            .col-md-6.mb-4.mb-md-0
-              p Los activos de información son datos identificados como relevantes para la organización. Se debe documentar por qué fueron seleccionados y describir cada activo. Además, cada activo necesita un responsable o custodio que establezca los requisitos de seguridad basados en confidencialidad, integridad y disponibilidad. Es crucial crear un perfil para cada activo que determine su nivel de criticidad, lo cual facilitará la identificación de amenazas y riesgos, además de ayudar a definir las medidas de seguridad necesarias.        
-            .col-md-6
-              img(src='@/assets/curso/temas/t1/acord1.png', alt='')
-          
-          .row(titulo="3. Identificación de contenedores de activos")
-            .col-md-6.mb-4.mb-md-0
-              p En este paso, se deben identificar los repositorios donde se almacena la información. Estos contenedores pueden ser de tipo técnico, físico o humano, ya que la información puede presentarse en formato digital, físico (documentos) o como conocimiento en la mente de los empleados.    
-            .col-md-6
-              img(src='@/assets/curso/temas/t1/acord2.png', alt='')
-          
-          .row(titulo="4. Identificación de áreas de preocupación")
-            .col-md-6.mb-4.mb-md-0
-              p Se desarrollan perfiles de riesgo para cada activo de información. Esto implica analizar la probabilidad de que una amenaza ocurra y su impacto. Cada área de preocupación debe documentar los riesgos percibidos, actores potenciales que podrían materializar la amenaza, los medios para llevarla a cabo y las consecuencias. Además, se debe registrar cómo estas amenazas pueden afectar los criterios de seguridad definidos previamente.    
-            .col-md-6
-              img(src='@/assets/curso/temas/t1/acord3.png', alt='')
-          
-          .row(titulo="5. Identificación de escenarios de amenaza")
-            .row.mb-3
-              .col-md-6.mb-4.mb-md-0
-                p Este paso extiende las áreas de preocupación identificadas anteriormente para detectar otras amenazas menos evidentes. Esto puede hacerse mediante cuestionarios específicos para cada tipo de contenedor (técnico, físico o humano), los cuales incluyen preguntas diseñadas para identificar posibles amenazas. También se puede emplear el uso de árboles de amenaza, que visualizan combinaciones de eventos que podrían comprometer los activos, como fallas técnicas, en sistemas, desastres naturales o acciones maliciosas internas o externas, teniendo presente que no todas las combinaciones significan una amenaza real y podrían considerarse descartadas. A continuación, se presenta un ejemplo de árbol de amenazas:
-              .col-md-6
-                img(src='@/assets/curso/temas/t1/acord4.png', alt='')
-            .row
-              .titulo-sexto.color-acento-contenido
-                h5 Figura 2.
-                span Prioridad de las áreas de impacto.
-              img(src='@/assets/curso/temas/t1/figura2.svg', alt='')
-              figcaption Nota. Adaptado de Mendoza (2014).
-          
-          .row(titulo="6. Identificación de riesgos")
-            .col-md-6
-              img(src='@/assets/curso/temas/t1/acord5.png', alt='')
-            .col-md-6.mb-4.mb-md-0
-              p.mb-2 Para calcular el riesgo, se utiliza la siguiente ecuación.
-              .row.mb-3
-                .col-lg-9
-                  .cajon.color-primario.p-4.mb-4
-                    p #[b Riesgo = Amenaza (condición) + Impacto (consecuencia)]
-                .col-lg-3 
-                  img(src='@/assets/curso/temas/t1/icono.svg', alt='')
-              p Se deben definir enunciados de impacto que describan cómo se vería afectada la organización si se materializan las amenazas. Para priorizar los riesgos, es útil definir la probabilidad de que estas amenazas ocurran, asignando valores de 1 (baja probabilidad), 2 (probabilidad media) y 3 (alta probabilidad), con base en datos históricos y estadísticos.
-            
-          .row(titulo="7. Análisis de riesgos")
-            .row.mb-3
-              .col-md-6.mb-4.mb-md-0
-                p Se evalúa cualitativamente el impacto de cada amenaza sobre la organización. Para cada activo de información, se calcula una puntuación de riesgo que se obtiene multiplicando el valor del impacto por la prioridad asignada previamente. El resultado final será un valor que puede variar entre 0 y 45, donde un valor más alto indica un mayor impacto sobre los activos.
-              .col-md-6
-                img(src='@/assets/curso/temas/t1/acord6.png', alt='')    
-            .row
-              .titulo-sexto.color-acento-contenido
-                h5 Tabla 3.
-                span Análisis de riesgos.
-              .tabla-a.color-acento-botones.mb-5 
-                table
-                  caption Referencia Tabla - Norma APA
-                  thead
-                    tr
-                      th Criterio de evaluación
-                      th Prioridad
-                      th Valor de área de impacto
-                      th Puntuación
-                  tbody
-                    tr
-                      td Reputación y confianza del cliente
-                      td 5
-                      td Alto (3)
-                      td 15
-                    tr
-                      td Financiera
-                      td 4
-                      td Medio (2)
-                      td 8
-                    tr
-                      td Productividad
-                      td 3
-                      td Bajo (1)
-                      td 3
-                    tr
-                      td Seguridad y salud
-                      td 2
-                      td Bajo (1)
-                      td 2
-                    tr
-                      td Multas y penas legales
-                      td 1
-                      td Alto (3)
-                      td 3
-                    tr
-                      td 
-                      td 
-                      td #[b Puntaje total]
-                      td #[b 3]
-              p Nota. Adaptado de Mendoza (2014).
-          
-          .row(titulo="8. Selección de un enfoque de mitigación")
-            .row.mb-3
-              .col-md-6.mb-4.mb-md-0
-                p.mb-3 inalmente, se deben determinar las estrategias para mitigar los riesgos identificados. Los riesgos más prioritarios son aquellos con un valor alto y una probabilidad de ocurrencia elevada. En este paso, se puede hacer uso de una matriz de riesgo relativo que clasifica los escenarios de amenaza según su impacto y probabilidad. Los enfoques comunes para el tratamiento de riesgos incluyen mitigar, transferir, postergar o aceptar el riesgo.
-                p El método OCTAVE Allegro es especialmente útil en este proceso, ya que permite gestionar los activos de información y crear escenarios de amenaza detallados. Esto facilita la identificación de riesgos y su prevención, proporcionando un enfoque cuantitativo para priorizar las amenazas según los criterios establecidos por los responsables de la toma de decisiones en la organización.
-              .col-md-6
-                img(src='@/assets/curso/temas/t1/acord7.png', alt='')    
-            .row
-              .titulo-sexto.color-acento-contenido
-                h5 Tabla 4. 
-                span Matriz de riesgo relativo.
-              .tabla-a.color-acento-botones.mb-5 
-                table
-                  caption Referencia Tabla - Norma APA
-                  thead
-                    tr
-                      th Puntaje de riesgo relativo
-                  tbody
-                    tr
-                      td Probabilidad
-                      td 30 a 45
-                      td 16 a 29
-                      td 0 a 15
-                    tr
-                      td Alta
-                      td Grupo 1
-                      td Grupo 2
-                      td Grupo 2
-                    tr
-                      td Media
-                      td Grupo 2
-                      td Grupo 2
-                      td Grupo 3
-                    tr
-                      td Baja
-                      td Grupo 3
-                      td Grupo 3
-                      td Grupo 4
-              p Nota. Adaptado de Mendoza (2014).
-
-
-
-
-
+      .row.bg5(numero="7" titulo="Análisis de riesgos") 
+        .row
+          .col-md-8.mb-4.mb-md-0
+            p.mb-3 Se evalúa cualitativamente el impacto de cada amenaza sobre la organización. Para cada activo de información, se calcula una puntuación de riesgo que se obtiene multiplicando el valor del impacto por la prioridad asignada previamente. El resultado final será un valor que puede variar entre 0 y 45, donde un valor más alto indica un mayor impacto sobre los activos.
+            .titulo-sexto.color-acento-contenido
+              h5 Tabla 3.
+              span Análisis de riesgos.
+            .tabla-a.color-acento-botones.mb-5 
+              table
+                caption Referencia Tabla - Norma APA
+                thead
+                  tr
+                    th Criterio de evaluación
+                    th Prioridad
+                    th Valor de área de impacto
+                    th Puntuación
+                tbody
+                  tr
+                    td Reputación y confianza del cliente
+                    td 5
+                    td Alto (3)
+                    td 15
+                  tr
+                    td Financiera
+                    td 4
+                    td Medio (2)
+                    td 8
+                  tr
+                    td Productividad
+                    td 3
+                    td Bajo (1)
+                    td 3
+                  tr
+                    td Seguridad y salud
+                    td 2
+                    td Bajo (1)
+                    td 2
+                  tr
+                    td Multas y penas legales
+                    td 1
+                     td Alto (3)
+                    td 3
+                  tr
+                    td 
+                    td 
+                    td #[b Puntaje total]
+                      d #[b 3]
+            p Nota. Adaptado de Mendoza (2014).
+          .col-md-4
+            img(src='@/assets/curso/temas/t1/linea5.png', alt='')
+      
+      .row.bg5(numero="8" titulo="Selección de un enfoque de mitigación") 
+        .row
+          .col-md-8.mb-4.mb-md-0
+            p.mb-3 Finalmente, se deben determinar las estrategias para mitigar los riesgos identificados. Los riesgos más prioritarios son aquellos con un valor alto y una probabilidad de ocurrencia elevada. En este paso, se puede hacer uso de una matriz de riesgo relativo que clasifica los escenarios de amenaza según su impacto y probabilidad. Los enfoques comunes para el tratamiento de riesgos incluyen mitigar, transferir, postergar o aceptar el riesgo.
+            p.mb-3 El método OCTAVE Allegro es especialmente útil en este proceso, ya que permite gestionar los activos de información y crear escenarios de amenaza detallados. Esto facilita la identificación de riesgos y su prevención, proporcionando un enfoque cuantitativo para priorizar las amenazas según los criterios establecidos por los responsables de la toma de decisiones en la organización.
+            .titulo-sexto.color-acento-contenido
+              h5 Tabla 4. 
+              span Matriz de riesgo relativo.
+            .tabla-a.color-acento-botones.mb-5 
+              table
+                caption Referencia Tabla - Norma APA
+                thead
+                  tr
+                    th Puntaje de riesgo relativo
+                tbody
+                  tr
+                    td Probabilidad
+                    td 30 a 45
+                    td 16 a 29
+                    td 0 a 15
+                  tr
+                    td Alta
+                    td Grupo 1
+                    td Grupo 2
+                    td Grupo 2
+                  tr
+                    td Media
+                    td Grupo 2
+                    td Grupo 2
+                    td Grupo 3
+                  tr
+                    td Baja
+                    td Grupo 3
+                    td Grupo 3
+                    td Grupo 4
+            p Nota. Adaptado de Mendoza (2014).
+          .col-md-4
+            img(src='@/assets/curso/temas/t1/linea6.png', alt='')
 
 </template>
 
