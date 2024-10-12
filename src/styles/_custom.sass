@@ -2,26 +2,49 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 13%
+    right: 5%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
-
+    top: -2%
+    right: 93%
+  @media (min-width: $bp-min-xxl)
+    &-1
+      animation: float1 3.5s ease-in-out infinite alternate
+      position: absolute
+      top: 14%
+      right: 9%
+    &-2
+      animation: float1 2.8s ease-in-out infinite alternate
+      position: absolute
+      top: 0%
+      right: 92%
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
+.banner-principal__img 
+  position: static
+
+
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem        
+.bg-color-acento-contenido
+  background-color: $color-acento-contenido
+
 
 .bg1
   background-color: #8AB2EE 
 .bg2 
-  background-color: #FEE2DF 
+  background-color: #FEE2DF !important
 .bg3
   background-color: #4B96E3 
 .bg4
@@ -33,15 +56,208 @@
 .bg7
   background-color:#FFFFFF
   border-radius: 20px
+.bg8
+  background-color: #FEFAF6
+.bg9
+  background-color: #F6F6F6
+.bg10
+  background-color:#AFD1F4 !important
 .bgimg1
-    background-image: url('../assets/curso/temas/t2/pestañas.svg') !important;
-    background-size: cover
-    background-repeat: no-repeat
-    background-position: center 
-    height: 400px !important
-h3.bgtitulo1
+  background-image: url('../assets/curso/temas/t2/pestañas.svg') !important
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center 
+h5.bgtitulo1
   width: fit-content
   background-color: #FA6D61 
 h3.bgtitulo2
   width: fit-content
   background-color: #4B96E3 
+.subt h3
+  border-bottom: 3px solid #4B96E3
+
+.tabs-a__tab
+  background-color: #FA6D61
+.slyder-f__btn i
+  font-size: 1.5rem
+  background-color: #FFBE01
+  height: 50px
+  width: 50px
+  padding: 5px
+  border-radius: 500px
+  display: flex
+  justify-content: center
+  align-items: center
+.linea-tiempo-d__item__content__title 
+  background-color: #B9D1F5
+.linea-tiempo-d__item__number
+  background-color: #B9D1F5
+.linea-tiempo-d__item--selected 
+  .linea-tiempo-d__item__content__title, .linea-tiempo-d__item__content__slot
+    background-color: #DBEAFA
+.t4 
+  .slyder-a__tipo-a .slyder-a__btn--atrs, .slyder-a__tipo-a .slyder-a__btn--sigt
+    background-color: #FFBE01
+    opacity: 0.9
+    border-color: #FFBE01
+  .slyder-a__bullets
+    display: none
+.pasos-b__header__btn--left, .pasos-b__header__btn--right
+  background-color: #FFBE01
+  border-color: #FFBE01
+.pasos-b__header__item__dot
+  background-color: #FFFFFF
+.pasos-b.color-acento-contenido .pasos-b__header__item--active .pasos-b__header__item__dot
+  border-color: #cccccc
+.tabs-b
+  border-bottom: 0px
+.tabs-b__tab 
+  background-color: #ECF4FC
+  .tabs-b__tab__icon
+    filter: hue-rotate(216deg)
+.tabs-b__tab--active
+  background-color: #FFF
+  .tabs-b__tab__icon
+    filter: hue-rotate(0deg)
+.acordion .acordion__activo
+  background-color: #FEE2DF
+.acordion__accion__btn--a
+  background-color: #FFBE01
+
+
+.tarjeta--boton.t3
+  img
+    filter: grayscale(1)
+    transition: all 0.3s ease-out
+  .img-deco  
+    position: relative
+    &::after
+      content: ''
+      position: absolute
+      top: 0px
+      left: 0px
+      width: 40px
+      height: 40px
+      background-color: #FA6D61
+      border-radius: 50px 
+      transition: all 0.3s ease-out
+  &:hover
+    img
+      filter: grayscale(0)  
+      transition: all 0.3s ease-out
+    .img-deco::after  
+      background-color: #4B96E3
+      transition: all 0.3s ease-out
+
+.tarj-slider
+  background-color: #C8DFF7
+  position: relative
+  min-height: 370px
+  border-radius: 130px
+  &::after
+    content: ''
+    position: absolute
+    top: 0px
+    left: 0px
+    width: 65px
+    height: 65px
+    background-color: #FA6D61
+    border-radius: 50px 
+  &::before
+    content: ''
+    position: absolute
+    bottom: -5px
+    right: -13px
+    width: 80px
+    height: 120px
+    background-image: url('../assets/curso/temas/t4/deco-tarj.svg')
+    background-repeat: no-repeat
+    background-size: contain
+
+// TARJETA HOVER  
+.nav-holder2
+  display: inline-block
+  overflow: hidden
+  position: relative
+  border-radius: 25px
+  -webkit-transform: translateZ(0)
+  -moz-transform: translateZ(0)
+  transform: translateZ(0)
+.nav-holder2 *, .nav-holder2 *:before, .nav-holder2 *:after
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  transition: all 0.45s ease
+.nav-holder2:before
+  position: absolute
+  top: -13%
+  bottom: 0
+  left: 0
+  right: 0
+  content: ''
+  background-color: #FA6D61
+  opacity: 1
+  z-index: 888
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  -ms-transition: all 0.45s ease
+  transition: all 0.45s ease
+  -webkit-transform: translateY(80%)
+  -moz-transform: translateY(80%)
+  transform: translateY(80%)
+.nav-holder2:hover:before
+  -webkit-transform: translateY(30%)
+  -moz-transform: translateY(30%)
+  transform: translateY(30%)
+  opacity: 1
+  -webkit-transition-delay: 0.1s
+  -moz-transition-delay: 0.1s
+  transition-delay: 0.1s
+  background-color: #8AB2EE
+.nav-holder2
+  .text
+    position: absolute
+    top: 70%
+    bottom: 0px
+    left: 0px
+    right: 0px
+    z-index: 999
+    bottom: 0
+    padding: 1em
+  img
+    backface-visibility: hidden
+    max-width: 100%
+    vertical-align: top
+    z-index: 0
+  p
+    margin: 0
+    opacity: 0
+    line-height: 1.2em
+.nav-holder2 h4
+  margin: 0
+  opacity: 1
+.nav-holder2:hover
+  .text
+    top: 25%
+  h4, p
+    opacity: 1
+    color: $color-sistema-texto
+@media (max-width: $bp-max-xs)    
+  .nav-holder2 .text
+    top: 75%
+  .nav-holder2:hover .text 
+    top: 24%
+  .nav-holder2:hover:before
+    -webkit-transform: translateY(30%)
+    -moz-transform: translateY(30%)
+    transform: translateY(30%)
+
+.tabla1.tabla-a.color-acento-botones thead
+  border: 0px
+  //border-bottom: 5px solid #DBEAFA
+.tabla1.tabla-a.color-acento-botones tbody
+  border-top: 3px solid #FA6D61
+.tabla3 tbody
+  background-color: #FFF
