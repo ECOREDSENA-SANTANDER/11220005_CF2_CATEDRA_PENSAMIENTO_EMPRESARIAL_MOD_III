@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="La figura presenta la síntesis del componente formativo 'Evaluación y control en la gestión del riesgo: toma de decisiones gerenciales', que aborda el proceso de evaluación y control de la gestión del riesgo y su impacto en la toma de decisiones gerenciales, incluyendo las proyecciones financieras y la gerencia del conocimiento.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

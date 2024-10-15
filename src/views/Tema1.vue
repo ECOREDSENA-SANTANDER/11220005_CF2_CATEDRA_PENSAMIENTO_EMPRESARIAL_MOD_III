@@ -80,7 +80,7 @@
       span Ejemplo tabla para calcular índice de riesgo.    
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade")
       .col-lg-9
-        img(src='@/assets/curso/temas/t1/fig1.svg', alt='')
+        img(src='@/assets/curso/temas/t1/fig1.svg', alt='La figura presenta un ejemplo de tabla/matriz para calcular el índice de riesgo. La probabilidad que va desde improbable, poco probable, bastante probable, hasta muy probable. Y el impacto que puede clasificarse en leve, moderado, grave y catastrófico. La tabla presenta escalas de color que varían de tonos de verde, amarillo y rojo, con diferente intensidad, y se identifican tres zonas en las intersecciones: poco relevante, relevancia media y muy relevante.')
 
     p Este enfoque permite realizar una evaluación rápida y eficiente, centrando la atención en los riesgos más críticos (ubicados en la "zona roja") y prestando menos atención a aquellos que son menos relevantes (ubicados en la "zona verde"). Esta metodología facilita la priorización y asignación de recursos para gestionar de manera efectiva los riesgos más significativos.
     p.mb-4 De acuerdo con Coronado y Prieto (2015), el objetivo principal del análisis y evaluación de los riesgos es optimizar el proceso de toma de decisiones y establecer prioridades en el tratamiento de los riesgos. Este objetivo se logra a través de las siguientes actividades:
@@ -230,10 +230,10 @@
           .col-12
             .titulo-sexto.color-acento-contenido
               h5 Figura 2.
-              span Prioridad de las áreas de impacto.
+              span Árbol de amenaza
           .col-lg-6 
             figure  
-              img.mb-2(src='@/assets/curso/temas/t1/figura2.svg', alt='')
+              img.mb-2(src='@/assets/curso/temas/t1/figura2.svg', alt='La figura presenta un ejemplo de árbol de amenaza, que identifica al actor (interno o externo), el motivo ( accidental o deliberado) y las posibles consecuencias asociadas a cada uno: divulgación, modificación, interrupción o destrucción.')
               figcaption Nota. Adaptado de Mendoza (2014).
       
       .row.bg5(numero="6" titulo="Identificación de riesgos")

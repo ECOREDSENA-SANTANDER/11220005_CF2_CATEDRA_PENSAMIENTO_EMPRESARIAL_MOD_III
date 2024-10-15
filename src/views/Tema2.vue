@@ -82,7 +82,7 @@
       span Objetivos de la gestión del conocimiento
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.col-md-10
-        img(src='@/assets/curso/temas/t2/fig3.svg', alt='')
+        img(src='@/assets/curso/temas/t2/fig3.svg', alt='La figura presenta en forma de diagrama los objetivos de la gestión del conocimiento que son: incrementar las oportunidades de negocio, mejorar la comunicación interna, aumentar la competitividad actual y futura, fortalecer el liderazgo en el mercado y optimizar el rendimiento empresarial.')
     
     p.mb-4 El propósito principal de la gestión del conocimiento es traducir el conocimiento en acción, lo cual, a su vez, se traduce en resultados concretos. En el contexto actual, las empresas dependen cada vez más del conocimiento por diversas razones:
 
@@ -250,7 +250,7 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row.justify-content-end(titulo="Económica")
             .col-lg-11.ps-lg-0
-              p Debe operar con los menores recursos posibles, ya que las PYMEs no cuentan con el mismo poder económico que las grandes empresas.
+              p Debe operar con los menores recursos posibles, ya que las pymes no cuentan con el mismo poder económico que las grandes empresas.
           .row.justify-content-end(titulo="Simple")
             .col-lg-11.ps-lg-0
               p La estructura y los procesos de la unidad deben ser sencillos, ajustándose a la naturaleza de la pyme, sin comprometer la eficacia y eficiencia.
