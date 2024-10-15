@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50.778" height="54.625" viewBox="0 0 50.778 54.625">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_403843" data-name="Rectángulo 403843" width="45.854" height="41.158" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1103160" data-name="Grupo 1103160" transform="translate(-843.146 -4950.13)">
+    <g id="Grupo_1103159" data-name="Grupo 1103159">
+      <g id="Grupo_1103158" data-name="Grupo 1103158">
+        <ellipse id="Elipse_11572" data-name="Elipse 11572" cx="20.631" cy="20.631" rx="20.631" ry="20.631" transform="translate(852.662 4963.493)" fill="#fa6d61"/>
+        <g id="Grupo_1102590" data-name="Grupo 1102590" transform="translate(843.146 4950.13)">
+          <g id="Grupo_1102589" data-name="Grupo 1102589" transform="translate(0 0)" clip-path="url(#clip-path)">
+            <path id="Trazado_913243" data-name="Trazado 913243" d="M36.432,40.051H3.5c-.858,0-1.582-1.132-1.582-2.461v-36l25.047-.021-.442,8.5,9.1-1.174V37.654a3.955,3.955,0,0,0,.809,2.4m-4.486-7.676H5.451v1.9H31.946Zm0-4.689H5.451v1.9H31.946Zm0-4.689H5.451v1.9H31.946Zm0-4.682H5.451v1.9H31.946Zm0-4.688H5.451v1.9H31.946Z" transform="translate(0.472 0.387)" fill="#4b96e3"/>
+            <path id="Trazado_913244" data-name="Trazado 913244" d="M45.854,37.081v.141a4.23,4.23,0,0,1-4.323,3.936H3.282C1.441,41.158,0,39.339,0,37.019V.029L26.353,0,36.477,8.689v6.389H43.26A2.835,2.835,0,0,1,45.854,18.1v18.98Zm-1.182,0V18.1c0-.688-.435-1.293-.927-1.293H42.43c-.5,0-.927.6-.927,1.293V30.439H36.477v6.642A2.6,2.6,0,0,0,39.26,39.43h2.629a2.6,2.6,0,0,0,2.783-2.348M40.455,16.759H36.469v12.6h3.739V17.989a3.12,3.12,0,0,1,.247-1.23M2.959,39.823H35.892a3.961,3.961,0,0,1-.808-2.4V8.668l-9.1,1.174.442-8.5-25.047.02v36c0,1.329.724,2.461,1.582,2.461M27.535,8.316l5.406-.7L27.788,3.262Z" transform="translate(0 0)" fill="#12263f"/>
+            <rect id="Rectángulo_403838" data-name="Rectángulo 403838" width="26.495" height="1.905" transform="translate(4.914 32.146)" fill="#12263f"/>
+            <rect id="Rectángulo_403839" data-name="Rectángulo 403839" width="26.495" height="1.905" transform="translate(4.914 27.458)" fill="#12263f"/>
+            <rect id="Rectángulo_403840" data-name="Rectángulo 403840" width="26.495" height="1.905" transform="translate(4.914 22.769)" fill="#12263f"/>
+            <rect id="Rectángulo_403841" data-name="Rectángulo 403841" width="26.495" height="1.905" transform="translate(4.914 18.088)" fill="#12263f"/>
+            <rect id="Rectángulo_403842" data-name="Rectángulo 403842" width="26.495" height="1.905" transform="translate(4.914 13.398)" fill="#12263f"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
