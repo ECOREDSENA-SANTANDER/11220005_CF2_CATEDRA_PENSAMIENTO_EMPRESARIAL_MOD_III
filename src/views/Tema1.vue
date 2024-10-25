@@ -139,7 +139,7 @@
       .row.bg5(numero="1" titulo="Establecer criterios de medición del riesgo")
         .row.mb-3
           .col-md-8
-            p Los activos de información son datos identificados como relevantes para la organización. Se debe documentar por qué fueron seleccionados y describir cada activo. Además, cada activo necesita un responsable o custodio que establezca los requisitos de seguridad basados en confidencialidad, integridad y disponibilidad. Es crucial crear un perfil para cada activo que determine su nivel de criticidad, lo cual facilitará la identificación de amenazas y riesgos, además de ayudar a definir las medidas de seguridad necesarias.     
+            p El primer paso para medir los riesgos consiste en identificarlos y evaluarlos cualitativamente según su impacto en la misión y objetivos de la organización. Se deben analizar diversas categorías clave, como la reputación y confianza del cliente, las finanzas, la productividad, la seguridad y salud, y el cumplimiento legal. Además, se puede incluir una categoría específica para abordar necesidades particulares de la empresa. Es esencial que el equipo responsable defina el nivel de impacto (alto, medio o bajo) que cada riesgo podría tener en el cumplimiento de los objetivos organizacionales.
           .col-md-4.col-lg-3
             img(src='@/assets/curso/temas/t1/linea1.png', alt='')
         .row.mb-3 
@@ -295,7 +295,7 @@
                     td 
                     td 
                     td #[b Puntaje total]
-                    td #[b 3]
+                    td #[b 31]
             p Nota. Adaptado de Mendoza (2014).
           .col-md-4.col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/linea5.png', alt='')
@@ -304,7 +304,7 @@
         .row
           .col-lg-9.mb-4.mb-md-0
             p.mb-3 Finalmente, se deben determinar las estrategias para mitigar los riesgos identificados. Los riesgos más prioritarios son aquellos con un valor alto y una probabilidad de ocurrencia elevada. En este paso, se puede hacer uso de una matriz de riesgo relativo que clasifica los escenarios de amenaza según su impacto y probabilidad. Los enfoques comunes para el tratamiento de riesgos incluyen mitigar, transferir, postergar o aceptar el riesgo.
-            p.mb-3 El método OCTAVE Allegro es especialmente útil en este proceso, ya que permite gestionar los activos de información y crear escenarios de amenaza detallados. Esto facilita la identificación de riesgos y su prevención, proporcionando un enfoque cuantitativo para priorizar las amenazas según los criterios establecidos por los responsables de la toma de decisiones en la organización.
+            p.mb-3 El método OCTAVE #[em Allegro] es especialmente útil en este proceso, ya que permite gestionar los activos de información y crear escenarios de amenaza detallados. Esto facilita la identificación de riesgos y su prevención, proporcionando un enfoque cuantitativo para priorizar las amenazas según los criterios establecidos por los responsables de la toma de decisiones en la organización.
             .titulo-sexto.color-acento-contenido
               h5 Tabla 4. 
               span Matriz de riesgo relativo.
