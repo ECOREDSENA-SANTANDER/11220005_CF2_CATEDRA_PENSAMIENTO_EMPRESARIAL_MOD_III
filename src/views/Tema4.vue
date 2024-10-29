@@ -161,7 +161,7 @@
                   ul.lista-ul.fa-ul.mb-0
                     li.mb-1
                       i.lista-ul__vineta
-                      | Identificar prioridades 
+                      | Identificar prioridades.
                     li.mb-0
                       i.lista-ul__vineta
                       | Mejorar la eficiencia en la asignación de recursos.

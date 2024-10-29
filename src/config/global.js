@@ -173,12 +173,12 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable de Línea de Producción',
+          cargo: 'Responsable de línea de producción',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -199,13 +199,13 @@ export default {
         },
         {
           nombre: 'Rosa Elvia Quintero Guasca',
-          cargo: 'Asesora Pedagógica',
+          cargo: 'Asesora pedagógica',
           centro:
             'Centro Industrial de Mantenimiento Integral - Regional Santander',
         },
         {
           nombre: 'Luis Orlando Beltrán Vargas',
-          cargo: 'Asesor Pedagógica',
+          cargo: 'Asesor pedagógica',
           centro:
             'Centro Industrial de Mantenimiento Integral - Regional Santander',
         },
@@ -216,7 +216,7 @@ export default {
       autores: [
         {
           nombre: 'Marcos Yamid Rubiano Avellaneda',
-          cargo: 'Diseñador de Contenidos Digitales',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
