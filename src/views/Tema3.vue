@@ -71,7 +71,7 @@
             ul.lista-ul.fa-ul
               li
                 i.lista-ul__vineta
-                | Replanear, debido a que lo que se había pensado ha sufrido modificaciones importantes, que han dejado obsoleto la anterior planificación.
+                | Replantear, debido a que lo que se había pensado ha sufrido modificaciones importantes, que han dejado obsoleto la anterior planificación.
               li
                 i.lista-ul__vineta
                 | Cerrar el riesgo, ya que en la actualidad tal riesgo no representa una opción real de presentarse.
@@ -87,7 +87,7 @@
         .row.justify-content-evenly.align-items-center
           .col-lg-7
             h4 Ejecutar
-            p Ejecutar una decisión es el proceso donde las decisiones de control son implementadas. Realizar cambiso a los planes hechos requiere volver a planificar, tomar acciones previamente definidas de contingencia y continuar observando el estado de los riesgos para ver si es necesario volver al seguimiento.
+            p Ejecutar una decisión es el proceso donde las decisiones de control son implementadas. Realizar cambios a los planes hechos requiere volver a planificar, tomar acciones previamente definidas de contingencia y continuar observando el estado de los riesgos para ver si es necesario volver al seguimiento.
           .col-lg-4.d-none.d-lg-block
             img(src='@/assets/curso/temas/t3/tabs3.svg', alt='')
 

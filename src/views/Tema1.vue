@@ -48,7 +48,7 @@
             ul.lista-ul.fa-ul
               li.mb-1
                 i.lista-ul__vineta
-                | Certeza (100%).
+                | Certeza (100 %).
               li.mb-1
                 i.lista-ul__vineta
                 | Muy probable.
@@ -121,7 +121,7 @@
             img.mb-2.px-lg-3(src='@/assets/curso/temas/t1/tarjeta1.png', alt='')
           .col-9.col-lg-7
             h5.bgtitulo1.mb-3.py-1.ps-3.pe-5 Calificación
-            p.mb-0.text-white Valor asignado al riesgo cuando se multiplican los valores asignados a las probabilidad y al impacto.
+            p.mb-0.text-white Valor asignado al riesgo cuando se multiplican los valores asignados a las probabilidades y al impacto.
       .col-md.tarjeta.bg4.p-4
         .row.align-items-center
           .col-3.col-lg-5
@@ -131,7 +131,7 @@
             p.mb-0.text-white Determinación de la zona de riesgo, dada por la calificación.
     
     p La evaluación de riesgos es una responsabilidad clave de la dirección de la empresa, aunque es esencial consultar tanto a los trabajadores como a sus representantes sobre el método utilizado, este debe ajustarse a los riesgos específicos de la organización y al nivel de profundidad necesario para garantizar una evaluación eficaz.
-    p Mendoza (2014) propone un enfoque estructurado para la evaluación de riesgos, basado en la aplicación de controles de seguridad tras una adecuada evaluación y tratamiento de los mismos. Uno de los modelos recomendados para esta tarea es OCTAVE Allegro (Operationally Critical Threat, Asset, and Vulnerability Evaluation), desarrollado por el Software Engineering Institute (SEI). Este modelo, documentado y accesible de manera gratuita, ofrece un proceso de evaluación en 8 pasos que permite gestionar eficazmente los riesgos de seguridad en la organización.
+    p Mendoza (2014) propone un enfoque estructurado para la evaluación de riesgos, basado en la aplicación de controles de seguridad tras una adecuada evaluación y tratamiento de los mismos. Uno de los modelos recomendados para esta tarea es OCTAVE Allegro (#[em Operationally Critical Threat, Asset, and Vulnerability Evaluation]), desarrollado por el #[em Software Engineering Institute] (SEI). Este modelo, documentado y accesible de manera gratuita, ofrece un proceso de evaluación en 8 pasos que permite gestionar eficazmente los riesgos de seguridad en la organización.
     p El uso de este tipo de modelos es una estrategia preventiva, diseñada para anticiparse a la materialización de amenazas identificadas. El desafío radica en considerar todas las amenazas potenciales que podrían comprometer los objetivos de la empresa, llevando a cabo un análisis de riesgos que permita reducirlos a un nivel aceptable. Un ejemplo de una metodología complementaria es MAGERIT (Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información), que se enfoca en la gestión de riesgos en sistemas de información.
     p.mb-4 A continuación, se detallan los ocho pasos del proceso de evaluación de riesgos, basados en el modelo OCTAVE Allegro:
 
@@ -149,7 +149,7 @@
               span Criterio de medición del riesgo – Reputación y confianza del cliente.
             .tabla-a.color-acento-botones.tabla1.mb-3
               table
-                caption.bg9 Referencia Tabla - Norma APA
+                caption.bg9 Nota. Adaptada de Mendoza (2014).
                 thead
                   tr.bg8
                     th Hoja de trabajo Allegro 7
@@ -165,7 +165,6 @@
                     td La información relacionada con incidente de seguridad se conoce dentro del área de TI
                     td La información relacionada con incidente de seguridad se conoce dentro de la organización
                     td La información relacionada con incidente de seguridad se conoce  públicamente
-            p.mb-5 Nota. Adaptada de Mendoza (2014).
 
             p.mb-4 Para priorizar las áreas de impacto en una organización, es esencial clasificarlas según su importancia, asignando un valor entre 1 y 5, donde 5 representa la mayor prioridad y 1 la menor:
     
@@ -176,7 +175,7 @@
                 span Prioridad de las áreas de impacto. 
               .tabla-a.color-acento-contenido.mb-3
                 table
-                  caption.bg9 Referencia Tabla - Norma APA
+                  caption.bg9 Nota. Adaptado de Mendoza (2014).
                   thead
                     tr.bg-color-acento-contenido
                       th Hoja de trabajo Allegro 7
@@ -203,7 +202,6 @@
                     tr.bg9
                       td.text-center.fw-bold N/A
                       td Definido por el usuario
-              p Nota. Adaptado de Mendoza (2014).
       
       .row.align-items-center.bg5(numero="2" titulo="Desarrollo del perfil de activos de información")
         .col-md-8
@@ -258,7 +256,7 @@
               span Análisis de riesgos.
             .tabla-a.tabla3.color-acento-contenido.mb-3 
               table
-                caption.bg9 Referencia Tabla - Norma APA
+                caption.bg9 Nota. Adaptado de Mendoza (2014). 
                 thead
                   tr.bg8
                     th Criterio de evaluación
@@ -296,7 +294,6 @@
                     td 
                     td #[b Puntaje total]
                     td #[b 31]
-            p Nota. Adaptado de Mendoza (2014).
           .col-md-4.col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/linea5.png', alt='')
       
@@ -310,7 +307,7 @@
               span Matriz de riesgo relativo.
             .tabla-a.tabla3.color-acento-contenido.mb-3 
               table
-                caption.bg9 Referencia Tabla - Norma APA
+                caption.bg9 Nota. Adaptado de Mendoza (2014). 
                 thead
                   tr.bg8
                     th(colspan="4") Puntaje de riesgo relativo
@@ -335,7 +332,6 @@
                     td Grupo 3
                     td Grupo 3
                     td Grupo 4
-            p Nota. Adaptado de Mendoza (2014).
           .col-md-3.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/linea6.png', alt='')
 
