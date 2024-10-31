@@ -99,11 +99,11 @@ export default {
         titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
       },
-      /*{
+      {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
-      },*/
+      },
       {
         nombreRuta: 'complementario',
         icono: 'far fa-folder-open',
@@ -117,7 +117,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/CF2_11220005_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -133,38 +133,147 @@ export default {
   },
   complementario: [
     {
-      tema: 'Gestión del riesgo',
-      referencia: '',
-      tipo: 'Norma',
+      tema:
+        '1. Evaluación de la gestión de riesgo <br><br>3. El control en la gestión del riesgo ',
+      referencia:
+        'ICONTEC. (2018). NTC-ISO 31000 – Gestión del riesgo. Directrices.',
+      tipo: 'PDF – Norma. ',
       link:
-        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=74790',
+        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=74790 ',
+    },
+    {
+      tema: '1. Evaluación de la gestión de riesgo',
+      referencia:
+        'Pirani. (14 de mayo de 2021). Matriz de riesgos en Excel. [Video]. YouTube.',
+      tipo: 'Video.',
+      link: 'https://www.youtube.com/watch?v=OUtmT8DPT3Q',
+    },
+    {
+      tema:
+        '2. La gerencia de la información y el  conocimiento en la toma de decisiones',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (24 de diciembre de 2022). Planificación estratégica y toma de decisiones organizacionales. [Video]. YouTube. ',
+      tipo: 'Video.',
+      link: 'https://www.youtube.com/watch?v=RwgcCyvZXNs',
+    },
+    {
+      tema: '4. La gerencia de las finanzas ',
+      referencia:
+        'Velásquez Restrepo, J. S. (2020). Análisis financiero. Finanzas para no financieros.',
+      tipo: 'Página web.',
+      link:
+        'https://www.finanzasparanofinancieros.com.co/index.php/basicas/analisis-financiero-formula-de-josavere ',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Activo de información',
+      significado:
+        'datos o recursos críticos para la organización que necesitan protección. Los activos pueden estar en formato digital, físico o en conocimiento',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Capital inmovilizado',
+      significado:
+        'recursos de la empresa que no son fácilmente convertibles en efectivo, como activos fijos, y que no pueden ser utilizados para cubrir obligaciones inmediatas.',
+    },
+    {
+      termino: 'Capital intelectual',
+      significado:
+        'conjunto de conocimientos, habilidades y experiencias de los empleados que, cuando se gestionan correctamente, generan valor para la organización. ',
+    },
+    {
+      termino: 'Contenedor de activos',
+      significado:
+        'repositorio o medio en el cual se almacenan los activos de información, que puede ser técnico (servidores), físico (documentos impresos) o humano (conocimiento en empleados). ',
+    },
+    {
+      termino: 'Impacto',
+      significado:
+        'gravedad potencial de un riesgo si se materializa, clasificado en categorías que van desde catastrófico hasta inocuo. ',
+    },
+    {
+      termino: 'Índice de riesgo',
+      significado:
+        'valor numérico obtenido al multiplicar el impacto de un riesgo por su probabilidad, que permite jerarquizar los riesgos según su importancia y urgencia de tratamiento.',
+    },
+    {
+      termino: 'Mitigación',
+      significado:
+        'estrategia de gestión de riesgos que busca reducir la probabilidad de que un riesgo ocurra o el impacto de sus consecuencias si llegara a materializarse. ',
+    },
+    {
+      termino: 'Pymes',
+      significado: 'Pequeñas y medianas empresas. ',
+    },
+    {
+      termino: 'Rentabilidad',
+      significado:
+        'capacidad de la empresa para generar ingresos en proporción a los recursos invertidos. Es un indicador clave de la eficiencia de las inversiones y del uso de activos. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link:
-        'https://calidadengestiondeproyectos.com/2019/06/02/el-analisis-riesgo-de-octave-allegro/',
-    },
-    {
-      referencia: '',
+      referencia:
+        'Bernal, J. J. (6 de enero de 2016). Gestión de Riesgos: ¿Cómo hacer una evaluación de riesgos? ¿Cómo buscar soluciones?',
       link:
         'https://www.pdcahome.com/8293/gestion-de-riesgos-por-que-debemos-gestionar-los-riesgos/',
     },
     {
-      referencia: '',
+      referencia:
+        'Coronado, A. M., y Prieto, L. P. (2016). Gestión del Riesgo. INS. ',
       link:
         'https://www.ins.gov.co/Direcciones/RedesSaludPublica/GestiondeCalidadLaboratorios/Lineamientos%20Calidad/lineamiento%20de%20gesti%C3%B3n%20del%20riesgo.pdf',
+    },
+    {
+      referencia:
+        'Empresa COPEC S.A. (diciembre de 2017). Política de gestión de riesgos.',
+      link:
+        'https://www.empresascopec.cl/wp-content/uploads/2020/03/Politica-de-Gestion-de-Riesgos.pdf',
+    },
+    {
+      referencia: 'EXÁCATO. (28 de enero de 2015). La gestión del riesgo.',
+      link: 'https://exacato.wordpress.com/2015/01/28/la-gestion-del-riesgo/',
+    },
+    {
+      referencia:
+        'FREMM. (2007). Manual Prevención de Riesgos Laborales, para Autónomos del Sector Metal de la Región de Murcia. ',
+      link:
+        'http://www.fremm.es/portal/pagina/263/Prevencion_de_Riesgos_Laborales_para_Autonomos_del_Sector_del_Metal.html',
+    },
+    {
+      referencia: 'Galarce, Y. (5 de agosto de 2009). Gestión de Riesgos.',
+      link:
+        'https://www.monografias.com/trabajos73/gestion-riesgos/gestion-riesgos5',
+    },
+    {
+      referencia:
+        'ICONTEC. (2018). NTC-ISO 31000 – Gestión del riesgo. Directrices.',
+      link:
+        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=74790',
+    },
+    {
+      referencia:
+        'Mendoza, M. A. (13 de diciembre de 2022). 8 pasos para la evaluación de riesgos de ciberseguridad de una empresa (parte I).',
+      link:
+        'https://www.welivesecurity.com/la-es/2022/12/13/8-pasos-evaluacion-de-riesgos-1/',
+    },
+    {
+      referencia:
+        'Mendoza, M. A. (13 de diciembre de 2022). 8 pasos para la evaluación de riesgos de ciberseguridad de una empresa (parte II).',
+      link:
+        'https://www.welivesecurity.com/la-es/2022/12/13/8-pasos-evaluacion-de-riesgos-2/',
+    },
+    {
+      referencia:
+        'Pinar Quezada, A. (s.f.). Conceptos introductorios de gestión de riesgos. Universidad Técnica Federico Santa María.',
+      link:
+        'https://www.inf.utfsm.cl/~lhevia/asignaturas/proy_ti/topicos/Memorias/LECTURA_Riesgos-Pinar.doc',
+    },
+    {
+      referencia:
+        'Presidencia de la República de Colombia - Oficina de Planeación. (2013). Gestión de riesgos. ',
+      link:
+        'http://wsp.presidencia.gov.co/dapre/sigepre/Documents/Novedades/DAPRE-Gestion-riesgos-SIGEPRE2013.pdf',
     },
   ],
   creditos: [

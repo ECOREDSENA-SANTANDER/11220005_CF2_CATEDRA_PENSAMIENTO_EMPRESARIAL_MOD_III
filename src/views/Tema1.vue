@@ -131,7 +131,7 @@
             p.mb-0.text-white Determinación de la zona de riesgo, dada por la calificación.
     
     p La evaluación de riesgos es una responsabilidad clave de la dirección de la empresa, aunque es esencial consultar tanto a los trabajadores como a sus representantes sobre el método utilizado, este debe ajustarse a los riesgos específicos de la organización y al nivel de profundidad necesario para garantizar una evaluación eficaz.
-    p Mendoza (2014) propone un enfoque estructurado para la evaluación de riesgos, basado en la aplicación de controles de seguridad tras una adecuada evaluación y tratamiento de los mismos. Uno de los modelos recomendados para esta tarea es OCTAVE Allegro (#[em Operationally Critical Threat, Asset, and Vulnerability Evaluation]), desarrollado por el #[em Software Engineering Institute] (SEI). Este modelo, documentado y accesible de manera gratuita, ofrece un proceso de evaluación en 8 pasos que permite gestionar eficazmente los riesgos de seguridad en la organización.
+    p Mendoza (2022) propone un enfoque estructurado para la evaluación de riesgos, basado en la aplicación de controles de seguridad tras una adecuada evaluación y tratamiento de los mismos. Uno de los modelos recomendados para esta tarea es OCTAVE Allegro (#[em Operationally Critical Threat, Asset, and Vulnerability Evaluation]), desarrollado por el #[em Software Engineering Institute] (SEI). Este modelo, documentado y accesible de manera gratuita, ofrece un proceso de evaluación en 8 pasos que permite gestionar eficazmente los riesgos de seguridad en la organización.
     p El uso de este tipo de modelos es una estrategia preventiva, diseñada para anticiparse a la materialización de amenazas identificadas. El desafío radica en considerar todas las amenazas potenciales que podrían comprometer los objetivos de la empresa, llevando a cabo un análisis de riesgos que permita reducirlos a un nivel aceptable. Un ejemplo de una metodología complementaria es MAGERIT (Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información), que se enfoca en la gestión de riesgos en sistemas de información.
     p.mb-4 A continuación, se detallan los ocho pasos del proceso de evaluación de riesgos, basados en el modelo OCTAVE Allegro:
 
@@ -149,7 +149,7 @@
               span Criterio de medición del riesgo – Reputación y confianza del cliente.
             .tabla-a.color-acento-botones.tabla1.mb-3
               table
-                caption.bg9 Nota. Adaptada de Mendoza (2014).
+                caption.bg9 Nota. Adaptada de Mendoza (2022).
                 thead
                   tr.bg8
                     th Hoja de trabajo Allegro 7
@@ -175,7 +175,7 @@
                 span Prioridad de las áreas de impacto. 
               .tabla-a.color-acento-contenido.mb-3
                 table
-                  caption.bg9 Nota. Adaptado de Mendoza (2014).
+                  caption.bg9 Nota. Adaptado de Mendoza (2022).
                   thead
                     tr.bg-color-acento-contenido
                       th Hoja de trabajo Allegro 7
@@ -232,7 +232,7 @@
           .col-lg-6 
             figure  
               img.mb-2(src='@/assets/curso/temas/t1/figura2.svg', alt='La figura presenta un ejemplo de árbol de amenaza, que identifica al actor (interno o externo), el motivo ( accidental o deliberado) y las posibles consecuencias asociadas a cada uno: divulgación, modificación, interrupción o destrucción.')
-              figcaption Nota. Adaptado de Mendoza (2014).
+              figcaption Nota. Adaptado de Mendoza (2022).
       
       .row.bg5(numero="6" titulo="Identificación de riesgos")
         .col-md-8
@@ -256,7 +256,7 @@
               span Análisis de riesgos.
             .tabla-a.tabla3.color-acento-contenido.mb-3 
               table
-                caption.bg9 Nota. Adaptado de Mendoza (2014). 
+                caption.bg9 Nota. Adaptado de Mendoza (2022). 
                 thead
                   tr.bg8
                     th Criterio de evaluación
@@ -307,7 +307,7 @@
               span Matriz de riesgo relativo.
             .tabla-a.tabla3.color-acento-contenido.mb-3 
               table
-                caption.bg9 Nota. Adaptado de Mendoza (2014). 
+                caption.bg9 Nota. Adaptado de Mendoza (2022). 
                 thead
                   tr.bg8
                     th(colspan="4") Puntaje de riesgo relativo
