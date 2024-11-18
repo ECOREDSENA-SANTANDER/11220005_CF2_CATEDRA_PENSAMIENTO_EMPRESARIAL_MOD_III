@@ -13,8 +13,8 @@
 
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/ch1wLFYvsIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Toma de decisiones gerenciales 
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/s58TVHltcVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Evaluación y control en la gestión del riesgo: toma de decisiones gerenciales
     
 </template>
 

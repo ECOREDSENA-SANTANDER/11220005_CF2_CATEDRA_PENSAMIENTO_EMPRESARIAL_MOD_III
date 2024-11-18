@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Evaluación y control en la gestión del riesgo: toma de decisiones gerenciales.',
     descripcionCurso:
-      'La evaluación y control en la gestión del riesgo aborda cómo la gerencia del conocimiento y de las finanzas influyen en la toma de decisiones empresariales, destacando la importancia de las proyecciones financieras, el control continuo de riesgos, y el valor estratégico del conocimiento en la mejora de procesos.',
+      'La evaluación y control en la gestión del riesgo aborda cómo la gerencia del conocimiento y de las finanzas, influyen en la toma de decisiones empresariales, destacando la importancia de las proyecciones financieras, el control continuo de riesgos, y el valor estratégico del conocimiento en la mejora de procesos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -51,18 +51,13 @@ export default {
           },
           {
             numero: '2.2',
-            titulo: 'Gerencia del conocimiento en las pymes',
+            titulo: 'Finalidad de la información',
             hash: 't_2_2',
           },
           {
             numero: '2.3',
-            titulo: 'Finalidad de la información',
-            hash: 't_2_3',
-          },
-          {
-            numero: '2.4',
             titulo: 'Creación del conocimiento organizacional',
-            hash: 't_2_4',
+            hash: 't_2_3',
           },
         ],
       },
@@ -136,10 +131,10 @@ export default {
       tema:
         '1. Evaluación de la gestión de riesgo <br><br>3. El control en la gestión del riesgo ',
       referencia:
-        'ICONTEC. (2018). NTC-ISO 31000 – Gestión del riesgo. Directrices.',
-      tipo: 'PDF – Norma. ',
+        'Universidad Privada del Valle (2018). NTC-ISO 31000 – Gestión del riesgo. Directrices.',
+      tipo: 'PDF – Norma.',
       link:
-        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=74790 ',
+        'https://www.studocu.com/bo/document/universidad-privada-del-valle/gestion-de-la-calidad-y-normativa-internacional/ntc-iso-31000-de-2018/12055552',
     },
     {
       tema: '1. Evaluación de la gestión de riesgo',
@@ -302,7 +297,7 @@ export default {
         },
         {
           nombre: 'Santiago Lozada Garcés',
-          cargo: 'Líder línea de producción',
+          cargo: 'Líder de línea de producción',
           centro:
             'Centro Industrial de Mantenimiento Integral - Regional Santander',
         },

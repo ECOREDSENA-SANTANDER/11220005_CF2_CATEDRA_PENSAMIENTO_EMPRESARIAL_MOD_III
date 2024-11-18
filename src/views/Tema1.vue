@@ -77,11 +77,11 @@
     
     .titulo-sexto.color-acento-contenido(data-aos="fade-left")
       h5 Figura 1.
-      span Ejemplo tabla para calcular índice de riesgo.    
+      span Ejemplo de la tabla para calcular índice de riesgo.    
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade")
       .col-lg-9
-        img(src='@/assets/curso/temas/t1/fig1.svg', alt='La figura presenta un ejemplo de tabla/matriz para calcular el índice de riesgo. La probabilidad que va desde improbable, poco probable, bastante probable, hasta muy probable. Y el impacto que puede clasificarse en leve, moderado, grave y catastrófico. La tabla presenta escalas de color que varían de tonos de verde, amarillo y rojo, con diferente intensidad, y se identifican tres zonas en las intersecciones: poco relevante, relevancia media y muy relevante.')
-
+        img.mb-2(src='@/assets/curso/temas/t1/fig1.svg', alt='La figura presenta un ejemplo de tabla/matriz para calcular el índice de riesgo. La probabilidad que va desde improbable, poco probable, bastante probable, hasta muy probable. Y el impacto que puede clasificarse en leve, moderado, grave y catastrófico. La tabla presenta escalas de color que varían de tonos de verde, amarillo y rojo, con diferente intensidad, y se identifican tres zonas en las intersecciones: poco relevante, relevancia media y muy relevante.')
+        figcaption Nota. Adaptada de Bernal (2016). 
     p Este enfoque permite realizar una evaluación rápida y eficiente, centrando la atención en los riesgos más críticos (ubicados en la "zona roja") y prestando menos atención a aquellos que son menos relevantes (ubicados en la "zona verde"). Esta metodología facilita la priorización y asignación de recursos para gestionar de manera efectiva los riesgos más significativos.
     p.mb-4 De acuerdo con Coronado y Prieto (2015), el objetivo principal del análisis y evaluación de los riesgos es optimizar el proceso de toma de decisiones y establecer prioridades en el tratamiento de los riesgos. Este objetivo se logra a través de las siguientes actividades:
 
@@ -148,7 +148,7 @@
               h5 Tabla 1.
               span Criterio de medición del riesgo – Reputación y confianza del cliente.
             .tabla-a.color-acento-botones.tabla1.mb-3
-              table
+              table(alt="El criterio de medición del riesgo de reputación y confianza del cliente se evalúa según el impacto: bajo, cuando la información sobre el incidente de seguridad se conoce solo en el área de TI; moderado, cuando se conoce dentro de la organización; y alto, cuando la información se hace pública.")
                 caption.bg9 Nota. Adaptada de Mendoza (2022).
                 thead
                   tr.bg8
@@ -161,10 +161,10 @@
                     td.fw-bold Moderado
                     td.fw-bold Alto
                   tr.bg7
-                    td Afectación a la imagen de la organización
-                    td La información relacionada con incidente de seguridad se conoce dentro del área de TI
-                    td La información relacionada con incidente de seguridad se conoce dentro de la organización
-                    td La información relacionada con incidente de seguridad se conoce  públicamente
+                    td Afectación a la imagen de la organización.
+                    td La información relacionada con incidente de seguridad se conoce dentro del área de TI.
+                    td La información relacionada con incidente de seguridad se conoce dentro de la organización.
+                    td La información relacionada con incidente de seguridad se conoce  públicamente.
 
             p.mb-4 Para priorizar las áreas de impacto en una organización, es esencial clasificarlas según su importancia, asignando un valor entre 1 y 5, donde 5 representa la mayor prioridad y 1 la menor:
     
@@ -174,7 +174,7 @@
                 h5 Tabla 2.
                 span Prioridad de las áreas de impacto. 
               .tabla-a.color-acento-contenido.mb-3
-                table
+                table(alt="Prioridad de las áreas de impacto asigna una prioridad a distintas áreas: reputación y confianza del cliente (5), financiera (4), productividad (3), seguridad y salud (2), y multas y penas legales (1). También permite un valor personalizado (N/A) definido por el usuario.")
                   caption.bg9 Nota. Adaptado de Mendoza (2022).
                   thead
                     tr.bg-color-acento-contenido
@@ -186,22 +186,22 @@
                       td Áreas de impacto
                     tr.bg7
                       td.text-center.fw-bold 5
-                      td Reputación y confianza del cliente
+                      td Reputación y confianza del cliente.
                     tr.bg9
                       td.text-center.fw-bold 4
-                      td Financiera
+                      td Financiera.
                     tr.bg7
                       td.text-center.fw-bold 3
-                      td Productividad
+                      td Productividad.
                     tr.bg9
                       td.text-center.fw-bold 2
-                      td Seguridad y salud
+                      td Seguridad y salud.
                     tr.bg7
                       td.text-center.fw-bold 1
-                      td Multas y penas legales
+                      td Multas y penas legales.
                     tr.bg9
                       td.text-center.fw-bold N/A
-                      td Definido por el usuario
+                      td Definido por el usuario.
       
       .row.align-items-center.bg5(numero="2" titulo="Desarrollo del perfil de activos de información")
         .col-md-8
@@ -225,11 +225,10 @@
         .row.mb-3
           p Este paso extiende las áreas de preocupación identificadas anteriormente para detectar otras amenazas menos evidentes. Esto puede hacerse mediante cuestionarios específicos para cada tipo de contenedor (técnico, físico o humano), los cuales incluyen preguntas diseñadas para identificar posibles amenazas. También se puede emplear el uso de árboles de amenaza, que visualizan combinaciones de eventos que podrían comprometer los activos, como fallas técnicas, en sistemas, desastres naturales o acciones maliciosas internas o externas, teniendo presente que no todas las combinaciones significan una amenaza real y podrían considerarse descartadas. A continuación, se presenta un ejemplo de árbol de amenazas:      
         .row.justify-content-center
-          .col-12
+          .col-lg-6 
             .titulo-sexto.color-acento-contenido
               h5 Figura 2.
-              span Árbol de amenaza
-          .col-lg-6 
+              span Árbol de amenaza.
             figure  
               img.mb-2(src='@/assets/curso/temas/t1/figura2.svg', alt='La figura presenta un ejemplo de árbol de amenaza, que identifica al actor (interno o externo), el motivo ( accidental o deliberado) y las posibles consecuencias asociadas a cada uno: divulgación, modificación, interrupción o destrucción.')
               figcaption Nota. Adaptado de Mendoza (2022).
@@ -255,7 +254,7 @@
               h5 Tabla 3.
               span Análisis de riesgos.
             .tabla-a.tabla3.color-acento-contenido.mb-3 
-              table
+              table(alt=" Análisis de riesgos muestra una evaluación de riesgos con cinco criterios: reputación y confianza del cliente, financiera, productividad, seguridad y salud, y multas y penas legales. Cada criterio se evalúa en términos de prioridad y valor de área de impacto (alto, medio, bajo), con una puntuación total de 31 que refleja el nivel general de riesgo.")
                 caption.bg9 Nota. Adaptado de Mendoza (2022). 
                 thead
                   tr.bg8
@@ -263,37 +262,37 @@
                     th Prioridad
                     th Valor de área de impacto
                     th Puntuación
-                tbody.text-center
+                tbody
                   tr
-                    td Reputación y confianza del cliente
-                    td 5
+                    td Reputación y confianza del cliente.
+                    td.text-center 5
                     td Alto (3)
-                    td 15
+                    td.text-center 15
                   tr
-                    td Financiera
-                    td 4
+                    td Financiera.
+                    td.text-center 4
                     td Medio (2)
-                    td 8
+                    td.text-center 8
                   tr
-                    td Productividad
-                    td 3
+                    td Productividad.
+                    td.text-center 3
                     td Bajo (1)
-                    td 3
+                    td.text-center 3
                   tr
-                    td Seguridad y salud
-                    td 2
+                    td Seguridad y salud.
+                    td.text-center 2
                     td Bajo (1)
-                    td 2
+                    td.text-center 2
                   tr
-                    td Multas y penas legales
-                    td 1
-                     td Alto (3)
-                    td 3
+                    td Multas y penas legales.
+                    td.text-center 1
+                    td Alto (3)
+                    td.text-center 3
                   tr
                     td 
                     td 
                     td #[b Puntaje total]
-                    td #[b 31]
+                    td.text-center #[b 31]
           .col-md-4.col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/linea5.png', alt='')
       
@@ -306,7 +305,7 @@
               h5 Tabla 4. 
               span Matriz de riesgo relativo.
             .tabla-a.tabla3.color-acento-contenido.mb-3 
-              table
+              table(alt="Matriz de riesgo relativo clasifica el nivel de riesgo en función de la probabilidad de ocurrencia y el puntaje de riesgo. Los riesgos de probabilidad alta se dividen en los Grupos 1 y 2; los de probabilidad media en los Grupos 2 y 3; y los de probabilidad baja en los Grupos 3 y 4, según el puntaje (30-45, 16-29, 0-15).")
                 caption.bg9 Nota. Adaptado de Mendoza (2022). 
                 thead
                   tr.bg8

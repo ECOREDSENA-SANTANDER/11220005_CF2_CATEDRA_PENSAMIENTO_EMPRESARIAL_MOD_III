@@ -139,15 +139,15 @@
           li 
             .lista-ol--cuadro__vineta
               span.text-dark.fw-bold 1
-            span.mb-0 #[b Identificar, clasificar, medir y valorar el capital intelectual:] Esto implica canalizar las habilidades, experiencias y capacidades del personal, convirtiéndolas en activos estructurales que generen valor para la empresa.
+            span.mb-0 #[b Identificar, clasificar, medir y valorar el capital intelectual:] esto implica canalizar las habilidades, experiencias y capacidades del personal, convirtiéndolas en activos estructurales que generen valor para la empresa.
           li 
             .lista-ol--cuadro__vineta
               span.text-dark.fw-bold 2
-            span.mb-0 #[b Implementar mejores métodos de trabajo:] Crear una estructura organizacional dinámica y eficiente que favorezca una relación cercana con el entorno y la integración de las tecnologías de la información.
+            span.mb-0 #[b Implementar mejores métodos de trabajo:] crear una estructura organizacional dinámica y eficiente que favorezca una relación cercana con el entorno y la integración de las tecnologías de la información.
           li 
             .lista-ol--cuadro__vineta
               span.text-dark.fw-bold 3
-            span.mb-0 #[b Detectar proveedores de conocimiento:] Identificar a los individuos que poseen conocimiento valioso y facilitar su transferencia dentro de la organización.
+            span.mb-0 #[b Detectar proveedores de conocimiento:] identificar a los individuos que poseen conocimiento valioso y facilitar su transferencia dentro de la organización.
     
     p.mb-4 Las organizaciones manejan dos tipos principales de conocimiento:
 
@@ -196,7 +196,7 @@
           span.text-dark.fw-bold 4
         | Acelerar la solución de problemas dentro de la organización. 
     
-    p.mb-3 A pesar de que las grandes empresas suelen liderar en la implementación de costosos proyectos de gerencia del conocimiento, las pymes deben encontrar maneras más asequibles de gestionar este valioso recurso, adaptándose a sus limitaciones. esto incluye la creación de una unidad de gerencia del conocimiento ajustada a las características específicas de la pyme.
+    p.mb-3 A pesar de que las grandes empresas suelen liderar en la implementación de costosos proyectos de gerencia del conocimiento, las pymes deben encontrar maneras más asequibles de gestionar este valioso recurso, adaptándose a sus limitaciones. Esto incluye la creación de una unidad de gerencia del conocimiento ajustada a las características específicas de la pyme.
     p.mb-4 Las pymes suelen enfrentar una serie de debilidades que limitan su capacidad de competir en igualdad de condiciones con las grandes empresas. Algunas de estas debilidades son:
 
     .row.align-items-center.mb-5
