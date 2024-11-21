@@ -80,11 +80,16 @@
       span Ejemplo de la tabla para calcular índice de riesgo.    
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade")
       .col-lg-9
-        img.mb-2(src='@/assets/curso/temas/t1/fig1.svg', alt='La figura presenta un ejemplo de tabla/matriz para calcular el índice de riesgo. La probabilidad que va desde improbable, poco probable, bastante probable, hasta muy probable. Y el impacto que puede clasificarse en leve, moderado, grave y catastrófico. La tabla presenta escalas de color que varían de tonos de verde, amarillo y rojo, con diferente intensidad, y se identifican tres zonas en las intersecciones: poco relevante, relevancia media y muy relevante.')
+        img.mb-3(src='@/assets/curso/temas/t1/fig1.svg', alt='La figura presenta un ejemplo de tabla/matriz para calcular el índice de riesgo. La probabilidad que va desde improbable, poco probable, bastante probable, hasta muy probable. Y el impacto que puede clasificarse en leve, moderado, grave y catastrófico. La tabla presenta escalas de color que varían de tonos de verde, amarillo y rojo, con diferente intensidad, y se identifican tres zonas en las intersecciones: poco relevante, relevancia media y muy relevante.')
+        p.mb-2 #[b Fuente:] 
+          a(:href="('http://www.pdcahome.com/wp-content/uploads/2016/01/tabla-evaluacion-probabilidad-riesgo-768x268.jpg')"
+            target="_blank")
+            span http://www.pdcahome.com/wp-content/uploads/2016/01/tabla-evaluacion-probabilidad-riesgo-768x268.jpg
         figcaption Nota. Adaptada de Bernal (2016). 
     p Este enfoque permite realizar una evaluación rápida y eficiente, centrando la atención en los riesgos más críticos (ubicados en la "zona roja") y prestando menos atención a aquellos que son menos relevantes (ubicados en la "zona verde"). Esta metodología facilita la priorización y asignación de recursos para gestionar de manera efectiva los riesgos más significativos.
     p.mb-4 De acuerdo con Coronado y Prieto (2015), el objetivo principal del análisis y evaluación de los riesgos es optimizar el proceso de toma de decisiones y establecer prioridades en el tratamiento de los riesgos. Este objetivo se logra a través de las siguientes actividades:
 
+    
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-4.col-md-6.col-11.mb-3.mb-lg-0
         .row.px-2.pt-2
