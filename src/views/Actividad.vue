@@ -19,7 +19,7 @@ export default {
         'Evaluación y control en la gestión del riesgo: toma de decisiones gerenciales.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> Apropiarse de los conocimientos asociados al proceso de gestión del riesgo en la empresa.',
+        '<b>Objetivo:</b> Evaluar el grado de comprensión y aplicación de conceptos relacionados con la evaluación y control en la gestión del riesgo empresarial.',
       barajarPreguntas: false,
       preguntas: [
         {
